@@ -1,5 +1,5 @@
 import turtle as t
-import time as ti
+import time
 
 def rectangle(hor,ver,col):
     t.pendown()
@@ -53,6 +53,6 @@ rectangle(5,5,'black')
 t.goto(-65,138)
 rectangle(40,5,'black')
 
-ti.sleep(10)
+time.sleep(10)
 
 t.hideturtle()
